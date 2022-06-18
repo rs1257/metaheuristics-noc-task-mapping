@@ -17,7 +17,7 @@ Alternatively use the requirements.txt to install these `pip install -r requirem
 
 ## Running
 
-Note: if it has lots of runs it can take a very long time to complete.
+Note: if you set runs (times to run an algorithm), number of generations or iterations (depending on the algorithm) to a large number it can take a very long time to complete.
 
 `python main.py`
 
