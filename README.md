@@ -43,7 +43,11 @@ It would be good in the future to allow you to specify these via the command lin
 
 The same benchmark is used and run across all of the metaheuristics, they can be found in the benchmarks folder. They are of varying difficulty, the more unschedulabled tasks at the end means its a harder benchmark.
 
-You can change the benchmark used by altering the BENCHMARK_FOLDER variable in shared/constants
+You can change the benchmark used by altering the BENCHMARK_FOLDER variable in shared/constants.py
+
+## Metaheuristic variants
+
+There are some variants to the metaheuristics, if you look in the metaheuristics folder you can see some have diff, parallel or a number after their name, these are modified versions to see if some changes produce better results. Some of these variants are not run by main.py but it would not be difficult to add them (except the original RM, the parallel version was developed so it could be run the same way as the other algorithms and reduce the time it took to complete).
 
 ## Screenshots
 
