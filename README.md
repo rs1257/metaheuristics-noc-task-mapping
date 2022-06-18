@@ -37,4 +37,24 @@ E.g. This will only run RM
 run = [True, False, False, False, False, False, False, False, False]
 ```
 
-It would be good in the future to allow to the specify these via the command line.
+It would be good in the future to allow you to specify these via the command line.
+
+## Changing the Benchmark
+
+The same benchmark is used and run across all of the metaheuristics, they can be found in the benchmarks folder. They are of varying difficulty, the more unschedulabled tasks at the end means its a harder benchmark.
+
+You can change the benchmark used by altering the BENCHMARK_FOLDER variable in shared/constants
+
+## Screenshots
+
+An example of a boxplot where the Random Mapper (RM) produced mappings with an average of 47 unschedulable tasks.
+
+![Alt text](screenshots/box-plot-RM.PNG?raw=true)
+
+There is the ability to plot different metaheuristics against each other but setting run to true for multiple.
+
+![Alt text](screenshots/box-plot-RM-GA-A.PNG?raw=true)
+
+Shows the best task allocation produced by RM during a run.
+
+![Alt text](screenshots/task-allocation-RM.PNG?raw=true)
