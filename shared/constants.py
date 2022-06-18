@@ -15,7 +15,7 @@ FLIT_SIZE = 32
 
 # task gen constants
 NO_BENCHMARKS = 10
-FOLDER_LOCATION = "../benchmarks/"
+FOLDER_LOCATION = "benchmarks/"
 FILE_NAME = "taskset"
 EXTENSION = ".txt"
 TASK_GEN_NUMBER = 32
@@ -28,8 +28,8 @@ MAX_MESSAGE_SIZE = 12
 
 BENCHMARK_FOLDER = "B1"
 if "P" in BENCHMARK_FOLDER:
-    BENCHMARK = "../benchmarks/parameters/" + BENCHMARK_FOLDER + ".txt"
+    BENCHMARK = "benchmarks/parameters/" + BENCHMARK_FOLDER + ".txt"
 else:
-    BENCHMARK = "../benchmarks/experiment/" + BENCHMARK_FOLDER + ".txt"
+    BENCHMARK = "benchmarks/experiment/" + BENCHMARK_FOLDER + ".txt"
 
 
